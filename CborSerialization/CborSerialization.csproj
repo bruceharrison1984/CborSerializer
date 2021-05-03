@@ -2,10 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageProjectUrl>https://github.com/bruceharrison1984/CborSerializer</PackageProjectUrl>
     <RepositoryUrl>https://github.com/bruceharrison1984/CborSerializer</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Authors>Bruce Harrison</Authors>
+    <Company />
   </PropertyGroup>
 
   <ItemGroup>
