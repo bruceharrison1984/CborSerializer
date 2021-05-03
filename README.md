@@ -1,5 +1,7 @@
 ![Build Status](https://github.com/bruceharrison1984/CborSerializer/actions/workflows/dotnet.yml/badge.svg)
 
+[Nuget Package Download](https://www.nuget.org/packages/CborSerializer/)
+
 # CborSerializer
 Open-ended CBOR serialization for .net5. This is just a thin wrapper around the System.Formats.Cbor namespace to allow for easier serialization
 of objects. This package has no dependencies.
