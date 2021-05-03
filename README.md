@@ -3,8 +3,7 @@
 [Nuget Package Download](https://www.nuget.org/packages/CborSerializer/)
 
 # CborSerializer
-Open-ended CBOR serialization for .net5. This is just a thin wrapper around the System.Formats.Cbor namespace to allow for easier serialization
-of objects. This package has no dependencies.
+Open-ended CBOR serialization for .net5. This is just a thin wrapper around the System.Formats.Cbor namespace to allow for easier serialization of objects. The only dependency is `System.Formats.Cbor`.
 
 ## Usage
 Usage is straight-forward.
@@ -71,6 +70,4 @@ TestObject deserializedObject = CborConvertor.Deserialize<TestObject>(byteArray)
 ```
 
 ## Automatic Serialization
-This library does not implement any type of automatic property mapping/serialization. All serialization
-must be manually implemented. My use case was a unique wire format and auto-mapping was not a good fit.
-This allows you to declare any wire format.
+This library does not implement any type of automatic property mapping/serialization. All serialization must be manually implemented. My use case was a unique wire format and auto-mapping was not a good fit. This allows you to declare any wire format.
