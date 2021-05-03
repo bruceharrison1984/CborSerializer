@@ -9,6 +9,9 @@
     <PackageId>CborSerializer</PackageId>
     <Version>1.0.0</Version>
     <Company />
+    <Description>
+      Simple wrapper around System.Formats.Cbor to allow for easier serialization
+    </Description>
   </PropertyGroup>
 
   <ItemGroup>
